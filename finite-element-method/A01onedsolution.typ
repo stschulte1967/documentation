@@ -37,6 +37,10 @@
 
 == Installation of deal.II
 
+Install a docker image which fits to the course and connect it to your code!
+
+docker run -v /home/stephan/Projects:/home/dealii/Projects -it dealii/dealii:v8.4.2-gcc-mpi-fulldepsmanual-debugrelease
+
 == Basis function
 
 Generalized basis function:
@@ -94,6 +98,18 @@ $N^1_(,xi)(xi) = (9 (9xi^2 -2 xi -3))/16$
 $N^2_(,xi)(xi) = (-9 (9xi^2 - 2 xi +3)/16$
 
 $N^3_(,xi)(xi) = (27 xi^2 +18 xi -1)/16$
+
+== For the calculus of K
+
+Order 1:
+
+$sum_(A,B=1)^N c_e^A (integral_(Omega^xi)( N^A_(,xi) (2 E A)/h_c N^B_(,xi) d xi) d^B_e = <c^1_e,c^2_e> (2 E A)/h_c (integral_(Omega^xi) mat(N^1_(,xi)N^1_(,xi),N^1_(,xi)N^2_(,xi);N^2_(,xi)N^1_(,xi),N^2_(,xi)N^2_(,xi)) d xi) mat(d_e^1; d_e^2) $
+
+taking into consideration $N^1_(,xi) = -1/2, N^2_(,xi) = 1/2$ and $integral_(Omega^xi) d xi=2$ 
+
+this simplifies to (for the case that $E$ and $A$ are constant for the element)
+
+$<c^1_e,c^2_e> (E A)/h_c mat(1,-1;-1,1) mat(d_e^1; d_e^2)$
 
 
 

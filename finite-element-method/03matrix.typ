@@ -45,7 +45,7 @@ $ = integral_(Omega^xi)(N^2_(,xi) 2/h^e c_e^2) E A (sum_B N^B_(,xi) d^B_e) d xi$
 
 $integral_(Omega^e) w^h f A d x$ for $e=1$: 
 
-$integral_(Omega^xi) (N^2 c^A_e) f h^e/2 A d xi$
+$integral_(Omega^xi) (N^2 c^2_e) f h^e/2 A d xi$
 
 Consider for a general element $Omega^e$:
 
