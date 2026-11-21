@@ -152,5 +152,53 @@ We know that $F_g = m g$ and so
 
 $ g = (G M)/(R^2) $
 
+== Centripetal force
+
+At constant speed a circular movement as to fulfill $sum(arrow(F))$ is orthogonal to $arrow(v)$
+
+== Orbital motion
+
+Keplers first law:
+
+All planets revolve around the sun in an elliptical orbit with sun at one of the foci.
+
+Kepler's second law:
+
+A line joining the planet and the sun sweeps equal areas at equal time intervals.
+
+Kepler's third law:
+
+Farther the planet, longer the time period.
+
+= Electrostatic
+
+== Coulomb's law
+
+Charge: $e = 1.602 * 10^(-19)C$
+
+$ arrow(F) = K(q_1 q_2)/(arrow(r)^2) $
+
+with $K = 8.99*10^9 (N m)/C^2$.
+
+$ arrow(E) = arrow(F)/Q $
+
+= Energy
+
+== Kinetic Energy
+
+Energy through to motion.
+
+$ K = 1/2 m v^2 $
+
+== Potential Energy
+
+Energy through to location.
+
+Potential energy is assigned to a system of interacting particles.
+
+Depends on arragement
+
+== Konservation of energy
+
 
 
