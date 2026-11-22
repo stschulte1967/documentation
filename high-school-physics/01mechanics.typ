@@ -79,4 +79,86 @@ When A puts a force on B, B puts an equal and opposite force an A.
 
 $ arrow(F)_"AB" = - arrow(F)_"BA" $
 
+== Momentum
+
+$ arrow(p) = m arrow(v) $
+
+$ sum(arrow(F)) = dv(m arrow(v), t) $
+
+== Conservation of Momentum
+
+If A and B are interacting with each other $d arrow(p)_A = d arrow(p)_b$.
+
+== Impuls
+
+Impuls: $sum(arrow(F)) d t = d p$ = change of momentum. 
+
+= Gravity
+
+== Newton's law of gravity
+
+Gravity is the force of attraction between two masses.
+
+$ F_g = (G m_1 m_2)/(r^2) $ 
+
+G is $6.67 * 10^(-11) (N m^2)/("kg"^2)$
+
+Near to earth we have
+
+$ F_g = (G M m)/(R^2) $
+
+where $G$ is the gravitational constant, $M$ is the mass of earth and $R$ is the radius of earth.
+
+We know that $F_g = m g$ and so 
+
+$ g = (G M)/(R^2) $
+
+== Centripetal force
+
+At constant speed a circular movement as to fulfill $sum(arrow(F))$ is orthogonal to $arrow(v)$
+
+== Orbital motion
+
+Keplers first law:
+
+All planets revolve around the sun in an elliptical orbit with sun at one of the foci.
+
+Kepler's second law:
+
+A line joining the planet and the sun sweeps equal areas at equal time intervals.
+
+Kepler's third law:
+
+Farther the planet, longer the time period.
+
+= Electrostatic
+
+== Coulomb's law
+
+Charge: $e = 1.602 * 10^(-19)C$
+
+$ arrow(F) = K(q_1 q_2)/(arrow(r)^2) $
+
+with $K = 8.99*10^9 (N m)/C^2$.
+
+$ arrow(E) = arrow(F)/Q $
+
+= Energy
+
+== Kinetic Energy
+
+Energy through to motion.
+
+$ K = 1/2 m v^2 $
+
+== Potential Energy
+
+Energy through to location.
+
+Potential energy is assigned to a system of interacting particles.
+
+Depends on arragement
+
+== Konservation of energy
+
 
